@@ -7,10 +7,16 @@
 def ebetuk_szama(szo:str) -> int:
     db = 0
     for betu in szo:
+        if betu == 'e':
+            db = db + 1
+    return db
 
 # 2. feladat
 # Írjon függvényt szavak_szama néven
 # Határozza meg, hogy a paramérerben kapott mondatban hány darab szó
+def szavak_szama(szavak:str)->int:
+    szavak = szavak.split
+    for szo in szavak:
 
 # 3. feladat
 # Írjon függvényt harom_betus_szavak néven
